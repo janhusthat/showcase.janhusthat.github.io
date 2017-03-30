@@ -1,0 +1,247 @@
+
+body {
+	font-family: 'Fakt Con Pro', sans-serif;	color: #000000;
+	margin: 0;
+	letter-spacing: 2px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,24c6e2+100,7db9e8+100,207cca+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 100%, #ffffff 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 100%,#ffffff 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 100%,#ffffff 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */  
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+	z-index: 4;
+
+	font-size: 7em;
+	line-height: 0.9em;
+	font-style: Fakt Con Pro;
+	text-align: left;
+
+	text-rendering: optimizeLegibility;	
+
+	margin-top: 50px;
+	margin-left: 50px;
+
+}
+
+.politics {
+	z-index: 5;
+	font-size: 5em;
+	line-height: 0.9em;
+	font-style: Fakt Con Pro;
+	text-align: left;
+
+	text-rendering: optimizeLegibility;	
+
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.blackpaint2 {
+	z-index: 4;
+	margin-top: -250px;
+	width: 800px;
+	height: 500px;
+	background-image: url("assets/Random_Red_Paint_0.png");
+
+	animation-name: blackpaint2;
+	animation-delay: 1s;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes blackpaint2 {
+	0%		{transform: scale(1.0, 1.0)}
+    50%		{transform: scale(1.2, 0.8)}
+    100%	{transform: scale(1.0, 1.0)}
+
+}
+
+.blackpaint3 {
+	z-index: 4;
+	margin-top: -500px;
+	margin-left: 50%;
+	width: 600px;
+	height: 375px;
+	background-image: url("assets/Random_Yellow_Paint_0.png");
+
+	animation-name: blackpaint3;
+	animation-delay: 1s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes blackpaint3 {
+	0%		{transform: scale(1.0, 1.0)}
+    50%		{transform: scale(2.0, 1.5)}
+    100%	{transform: scale(1.0, 1.0)}
+
+}
+
+
+.bluepaint0 {
+	z-index: 4;
+	margin-top: -500px;
+	margin-left: 50%;
+	width: 400px;
+	height: 400px;
+	background-image: url("assets/Random_Blue_Paint.png");
+
+	animation-name: bluepaint0;
+	animation-delay: 1s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes bluepaint0 {
+	0%		{transform: scale(1.0, 1.0)}
+    50%		{transform: scale(2.0, 1.5)}
+    100%	{transform: scale(1.0, 1.0)}
+
+}
+
+
+.phrase {
+	z-index: 4;
+	width: 450px;
+	font-size: 4em;
+	line-height: 1em;
+	font-style: Fakt Con Pro;
+	text-align: center;
+	margin-left: 50px;
+	text-rendering: optimizeLegibility;	
+
+	animation-name: phrase;
+	animation-delay: 1s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes phrase {
+	0%{-webkit-transform: rotate(0deg);}
+    50%{-webkit-transform: rotate(30deg)}
+    100%{-webkit-transform: rotate(0deg);}
+
+}
+
+.laws {
+	z-index: 4;
+	width: 450px;
+	font-size: 4em;
+	line-height: 1em;
+	font-style: Fakt Con Pro;
+	text-align: center;
+	margin-left: 50px;
+	text-rendering: optimizeLegibility;	
+
+	
+
+}
+
+.lawsof{
+	margin-top: -900px;
+	margin-left: 10%;
+
+	animation-name: lawsof;
+	animation-delay: 1s;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes lawsof {
+	0%{-webkit-transform: rotate(0deg);}
+    50%{-webkit-transform: rotate(1deg)}
+    100%{-webkit-transform: rotate(0deg);}
+
+}
+
+
+.phrasealt {
+	z-index: 4;
+	width: 450px;
+	font-size: 3em;
+	line-height: 1em;
+	font-family: Fakt Con Pro;
+	text-align: center;
+	margin-left: 50px;
+		
+
+	animation-name: phrasealt;
+	animation-delay: 1s;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes phrasealt {
+	0%{-webkit-transform: rotate(0deg);}
+    50%{-webkit-transform: rotate(360deg)}
+    100%{-webkit-transform: rotate(0deg);}
+
+}
+
+.phrasenew {
+	z-index: 4;
+	width: 450px;
+	font-size: 4em;
+	line-height: 1em;
+	font-style: Fakt Con Pro;
+	text-align: center;
+	margin-left: 50px;
+	
+
+	animation-name: phrasenew;
+	animation-delay: 1s;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes phrasenew {
+	0%{-webkit-transform: rotate(0deg);}
+    50%{-webkit-transform: rotate(-90deg)}
+    100%{-webkit-transform: rotate(0deg);}
+
+}
+
+.img{
+	margin-left: 10%;
+	animation-name: img;
+	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+
+} 
+
+@keyframes img {
+	0%{-webkit-transform: rotate(0deg);}
+	25%{-webkit-transform: rotate(0.5deg);}
+    50%{-webkit-transform: rotate(-0.5deg)}
+    100%{-webkit-transform: rotate(0deg);}
+
+#settings { display: block; text-align:center}
+
+
+#paint {
+	border: 0px solid black; 
+	z-index: 0;
+	margin-left: 40%;
+	margin-top: 100px;	
+	background-image: url("assets/Napoleon_Dynamite_BW.png");
+	display: block;}
+
+#gallery {
+	margin-top: 100px;
+	margin-left: 5%;
+	width: 80%;
+
+}
